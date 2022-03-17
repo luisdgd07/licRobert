@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$brand-primary: #7b8994;
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.contenedor-principal{
+	margin-top: 50px;
+	border: 5px solid #f4f4f4;
+}
+.navbar-collapse{
+	background-color: #581216;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover{
+	color: white;
+}
+.navbar-brand{
+	padding-top: 10px;
+	padding-left: 40px;
+}
+li.list-group-item.titulo-arbol{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #47525d;
+}
+.glyphicon{
+	color: #eb7c7c;
+	font-size: 18px;
+}
+.glyphicon-file{
+	color: #90a6c3;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+.panel-default{
+	border-color: transparent;
+}
+.btn{
+	font-size: 12px;
+}
+.pointer {
+    cursor: pointer;
+}
+.nav-funciones{
+	margin-bottom: 10px;
+	.button-funciones{
+		float: left;
+		a{
+			margin-right: 7px;
+		}
+	}
+	.button-orden{
+		float: right;
+		margin-right: 10px;
+		text-align: center;
+		.orden-titulo{
+			color: $brand-primary;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		a{
+			background-color: $brand-primary;
+			border-radius: 4px;
+			color: white;
+			font-size: 11px;
+			padding: 5px 10px;
+			font-weight: 600;
+			.glyphicon{
+				color: white;
+				font-size: 10px;
+				margin-right: 5px;
+			}
+		}
+		a:hover,a:link,a:active{
+			text-decoration: none;
+		}
+	}
+
+}
+.lista-archivo{
+	li{
+		cursor: pointer;
+		padding: 7px 2px 7px;
+		margin-bottom: -1px;
+		box-sizing: border-box;
+		list-style: none;
+		border-top: 1px solid #e8e8e8;
+		border-bottom: 1px solid #e8e8e8;
+		border-left: 1px solid rgba(0, 0, 0, 0);
+		border-right: 1px solid rgba(0, 0, 0, 0);
+		list-style-type: none;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 30px;
+		a{
+			color: #3d464d;
+		}
+	}
+	li:hover{
+		background-color: #fff8f4;
+	    border-top-color: #facccc;
+	    border-bottom-color: #facccc;
+	}
+	.tipo-retroceso{
+		padding-left: 20px;
+	}
+}
+.navbar{
+	min-height: 70px;
+}
+
